@@ -1,0 +1,2 @@
+# fix23_codingbat
+ejercicio de arrays_fix23_arrays1_codingbat
