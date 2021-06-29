@@ -1,0 +1,31 @@
+//este código funciona con todos las cifras que se quieran poner en el array,todos los números 3 que se pongan después del 2 se cambiarán a 0
+
+package ejerciciosdearrays;
+
+import java.util.Arrays;
+
+public class fix23 {
+
+		public static int[] sustituir3(int[]nums) {
+			for(int i=0;i<=nums.length-1;i++) {
+				for(int j=i+1;j<=nums.length-1;j++) {
+					
+						
+					if((nums[i]==2)&(nums[j]==3)){
+						nums[j]=0;
+					
+					
+				}
+			}
+		}
+			
+			return nums;
+			
+		}
+	public static void main(String[] args) {
+		int[]nums= {1, 2, 3,4,2,3};
+		System.out.println(Arrays.toString(fix23.sustituir3(nums)));
+
+	}
+
+}
